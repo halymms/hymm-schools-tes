@@ -1,0 +1,14 @@
+{
+  "notas": [
+    {
+      "nomeAluno": "joão",
+      "serie": "4°A",
+      "nota": "100"
+    },
+    {
+      "nomeAluno": "pedro",
+      "serie": "4°A",
+      "nota": "50"
+    }
+  ]
+}

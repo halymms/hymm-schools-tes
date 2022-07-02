@@ -1,0 +1,408 @@
+.content-page {
+    max-width: 1144px;
+    margin: 0 auto;
+  }
+  
+  .padding-default {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+  }
+  
+  .header-di {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 1rem;
+    position: -webkit-sticky;
+    position: static;
+    top: 0;
+    z-index: 1020;
+  }
+  
+  .div-logo {
+    margin-right: 1rem;
+    padding-top: 0.18213rem;
+    padding-bottom: 0.18213rem;
+  }
+  
+  .link-logo {
+    text-decoration: none;
+  }
+  
+  .logo-hymm {
+    font-size: 28px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #f90;
+  }
+  
+  .schools-span {
+    font-size: 10px;
+    color: #173a56;
+  }
+  
+  .logo-img {
+    height: 31px;
+  }
+  
+  .links-header {
+    display: flex;
+  }
+  
+  .list-links-header {
+    display: flex;
+  }
+  
+  .list-header {
+    list-style-type: none;
+  }
+  
+  .list-links {
+    padding: 0.5rem 1rem;
+    color: #212832;
+    text-decoration: none;
+    font-size: 0.88rem;
+  }
+  
+  .list-links:hover {
+    transition: 0.15s;
+    color: #f90;
+  }
+  
+  .button {
+    font-weight: 600;
+    text-decoration: none;
+    padding: 0.688rem 1.563rem;
+    border-radius: 0.25rem;
+  }
+  
+  .button:hover {
+    transition: 0.15s;
+  }
+  
+  .sign-in {
+    color: #173a56;
+    border: 0.0625rem solid #bcd0e5;
+  }
+  
+  .sign-in:hover {
+    color: #2f281e;
+  }
+  
+  .sign-up {
+    color: #fffefe;
+    background-color: #f90;
+    border-color: #f90;
+    margin-left: 1rem !important;
+  }
+  
+  .sign-up:hover,
+  .button-main:hover,
+  .button-newsletter:hover {
+    background-color: #cc7a00;
+    border-color: #bf7300;
+  }
+  
+  .register-or-enter {
+    margin-left: 1.8rem !important;
+  }
+  
+  .design-thinking {
+    display: flex;
+    justify-content: space-between;
+    padding: 4rem 0;
+  }
+  
+  .design-thinking-text {
+    padding: 3rem 1rem;
+  }
+  
+  .design-thinking-text,
+  .design-thinking-image {
+    width: 50%;
+    overflow: hidden;
+  }
+  
+  .design-thinking-image img {
+    max-width: 100%;
+  }
+  
+  .design-thinking-text h1,
+  .grades-and-lessons h1 {
+    font-size: 46px;
+    font-weight: 700;
+    color: #2f281e;
+    line-height: 1.2;
+    margin-bottom: 1.8rem;
+  }
+  
+  .design-thinking-text p {
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #544837;
+    line-height: 1.5;
+    margin-bottom: 3rem !important;
+  }
+  
+  .button-main {
+    font-size: 1rem;
+    text-decoration: none;
+    font-weight: 600;
+    line-height: 1.5;
+    color: #fff;
+    background-color: #f90;
+    border-color: #f90;
+    padding: 0.938rem 2.563rem;
+    border-radius: 0.25rem;
+    transition: 0.15s ease-in-out;
+    margin-right: 1rem;
+  }
+  
+  .watch-button {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #f90;
+    text-decoration: underline;
+    display: flex;
+    align-items: center;
+    padding: 0.688rem 1.563rem;
+  }
+  
+  .design-thinking-buttons {
+    display: flex;
+    align-items: center;
+  }
+  
+  .svg-inline--fa {
+    width: 14px;
+    height: 16px;
+    margin-right: 0.5rem;
+  }
+  
+  .footer-di {
+    display: grid;
+    grid-template-columns: 25% 50% 25%;
+    padding-top: 5rem;
+    padding-bottom: 2.5rem;
+  }
+  
+  .input-newsletter-container {
+    display: grid;
+  }
+  
+  .logo-footer .logo-img {
+    width: 184px;
+  }
+  
+  .links-footer-list {
+    list-style-type: none;
+  }
+  
+  .title-newsletter {
+    font-size: 1.26rem;
+    margin-bottom: 1.8rem;
+  }
+  
+  .input-newsletter {
+    width: 100%;
+    padding: 0.688rem 1.563rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #2f281e;
+    background-color: #fffefe;
+    background-clip: padding-box;
+    border: 1px solid #e0e0e0;
+    border-radius: 0.25rem;
+    margin-bottom: 1rem;
+  }
+  
+  .button-newsletter {
+    font-weight: 500;
+    color: #fffefe;
+    background-color: #f90;
+    border-color: #f90;
+    cursor: pointer;
+    border: 1px solid transparent;
+    padding: 0.688rem 1.463rem;
+    font-size: 1rem;
+    border-radius: 0.25rem;
+    width: 151px;
+    transition: 0.15s ease-in-out;
+  }
+  
+  .list-footer {
+    display: grid;
+    justify-content: right;
+    padding-right: 8rem;
+  }
+  
+  .links-footer-list {
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 0.25rem;
+  }
+  
+  .links-footer {
+    color: #544837;
+    text-decoration: none;
+  }
+  
+  .credits {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    border-top: 1px solid #eee !important;
+  }
+  
+  .credits p {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #2f281e;
+    font-family: "Poppins", "Rubik", -apple-system, BlinkMacSystemFont, "Segoe UI",
+      "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+      "Segoe UI Symbol";
+  }
+  
+  .credits p span {
+    font-size: 1.2rem;
+    color: #212832;
+  }
+  
+  .title-benefits {
+    font-size: 2.88651rem;
+    font-weight: 700;
+    text-align: center;
+    color: #2f281e;
+    padding-top: 7.5rem;
+    padding-bottom: 1.8rem;
+  }
+  
+  .benefits-ul {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .benefits-ul b {
+    font-size: 1.26563rem;
+    font-weight: 700;
+    color: #2f281e;
+  }
+  
+  .benefits-ul p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #2f281e;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 3rem;
+  }
+  
+  .button-container a {
+    padding: 0.688rem 1.563rem;
+    font-size: 1rem;
+    border-radius: 0.25rem;
+    text-transform: uppercase;
+    margin: 0;
+    padding-top: 1rem;
+  }
+  
+  img.img-get-started {
+    max-width: 88% !important;
+  }
+  
+  .form-login {
+    display: flex;
+    flex-direction: column;
+    width: 38%;
+  }
+  
+  .form-login h3 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #2f281e;
+    margin-bottom: 2rem;
+  }
+  
+  .form-login input,
+  .grade-and-lessons-inputs input {
+    height: 63px;
+    margin-bottom: 17px;
+    padding: 15px;
+    border: 0.0625rem solid #bcd0e5;
+    border-radius: 6px;
+    font-size: 1rem;
+  }
+  
+  form .button-container a {
+    width: 100%;
+    text-align: center;
+  }
+  
+  .get-buttons .button.sign-up {
+    cursor: pointer;
+  }
+  
+  .get-buttons .button.sign-up:first-child {
+    margin-left: 0 !important;
+  }
+  
+  .grade-and-lessons-inputs {
+    display: grid;
+    width: 50%;
+  }
+  
+  .grade-and-lessons-inputs select {
+    height: 63px;
+    margin-bottom: 17px;
+    padding: 15px;
+    border: 0.0625rem solid #bcd0e5;
+    border-radius: 6px;
+    font-size: 1rem;
+    overflow-y: unset;
+  }
+  
+  .grade-and-lessons-inputs option {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .classroom-data-table {
+    border: 1px solid #173a56;
+    border-collapse: collapse;
+  }
+
+  .classroom-data-title {
+    border-bottom: 1px solid #173a56;
+    padding: 3px 8px;
+  }
+
+  .classroom-data-info {
+    border: 1px solid #173a56;
+    padding: 3px 8px;
+  }
+
+  .grade-and-lessons-inputs option::after {
+    content: "";
+    background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8ZyBpZD0iZHJvcGRvd24tYXJyb3ctcmlnaHQiIHRyYW5zZm9ybT0idHJhbnNsYXRlKC0zMDguNSA0MzMpIHJvdGF0ZSgtOTApIj4KICAgIDxyZWN0IGlkPSJSZWN0YW5nbGVfNjYxMyIgZGF0YS1uYW1lPSJSZWN0YW5nbGUgNjYxMyIgd2lkdGg9IjE2IiBoZWlnaHQ9IjE2IiB0cmFuc2Zvcm09InRyYW5zbGF0ZSg0MTcgMzA4LjUpIiBmaWxsPSIjZmZmIiBvcGFjaXR5PSIwIi8+CiAgICA8cGF0aCBpZD0iYXJyb3ciIGQ9Ik0xMi44ODUsMjAuOThsNS41NjMtNS4zNTVMMTIuODg1LDEwLjI3LDE0LjYsOC42MjVsNy4yODcsNy03LjI4Nyw3WiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoNDQwLjYyNSAyOTkuMTE1KSByb3RhdGUoOTApIiBmaWxsPSIjMTg3OWE2Ii8+CiAgPC9nPgo8L3N2Zz4K);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 16px;
+    height: 16px;
+    display: flex;
+    align-items: center;
+    margin-left: 2px;
+    transform: rotate(91deg);
+  }
+  
+  .lessons {
+    padding: 10px 0 0;
+  }
+  
